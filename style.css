@@ -1,0 +1,528 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    max-width: 100vw;
+}
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+
+#home {
+    height: 100vh;
+    max-width: 100%;
+    
+}
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: #8A9A5B;
+    display: block;
+    position: fixed;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+label.logo {
+    font-size: 35px;
+    line-height: 80px;
+    color: white;
+    padding: 0 100px;
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+    font-size: 20px;
+}
+nav li {
+    display: inline-block;
+    margin: 0 12px;
+    line-height: 80px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+nav a {
+    color: white;
+}
+nav a:hover {
+    color: rgb(0, 12, 179);
+    transition: .3s;
+}
+nav #icon {
+    float: right;
+    line-height: 80px;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1048px) {
+    nav ul {
+        font-size: 17px;
+    }
+
+}
+
+@media (max-width: 909px) {
+    nav #icon {
+        display: block;
+        margin-right: 40px;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #8A9A5B;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+    }
+    nav li {
+        margin: 30px 0;
+        display: block;
+        text-align: center;
+    }
+    label.logo {
+        margin: 0 -50px;
+    }
+    a.active, a:hover {
+        color: #3498db;
+    }
+    nav ul.show {
+        left: 0;
+    }
+
+}
+
+/*-------------------------Homepage-----------------------------*/
+
+.header-area h2 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: #fff;
+    font-size: 3.5em;
+    text-shadow:  0 2px 5px rgba(0,0,0, .5);
+}
+.header-area h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+    font-size: 3.5em;
+    text-shadow:  0 2px 5px rgb(0, 0, 0);
+    color: white;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.header-area h2 span {
+    color:#3498db;
+}
+.header-area h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-area h3 a {
+    display: flex;
+    padding: 10px;
+    background-color: #3498db;
+    border-radius: 5px;
+    font-size: 30px;
+    color: white;
+    margin-top: 50px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+
+}
+.header-area h3 a:hover {
+    
+    background-color: #4ab6ff;
+    color: rgb(39, 39, 145);
+    transition: all .2s;
+
+}
+
+@media (max-width: 1500px) {
+    .header-area h1 {
+        padding-top: 250px;
+    }
+}
+@media (max-width: 785px) {
+    .header-area h1 {
+        padding-top: 230px;
+    }
+}
+@media (max-width: 584px) {
+    .header-area h1 {
+        padding-top: 180px;
+    }
+    .header-area {
+        font-size: 15px;
+    }
+}
+@media (max-width: 397px) {
+    .header-area {
+        font-size: 12px;
+    }
+}
+
+.arrow {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    
+}
+
+
+/*----------------------------2nd section----------------------------------*/
+
+
+#about {
+    height: auto;
+    max-width: 100%;
+    background: #C0C0C0;
+    /* top, transparent black, faked with gradient  
+    linear-gradient(
+      rgba(0, 0, 0, 0), 
+      rgba(0, 0, 0, 0.8)
+    ),
+    /* bottom, image 
+    url(photos/bg_bggenerator_com.png); */
+    
+}
+.abouttitle {
+    text-align: center;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: #ffffffde;;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.aboutme {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Jost', sans-serif;
+    margin:0 20%;
+}
+.aboutme img {
+    height: 400px;
+    padding: 0 20px;
+    margin:  0 0 50px 0;
+    
+}
+
+.aboutme h1 {
+    text-align: center;
+
+}
+.aboutme div {
+    margin: 0;
+}
+.aboutme div p {
+    color: white;
+    font-size: 1.3rem;
+    width: 450px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.aboutme div p span {
+    color: black;
+    
+}
+.anchor {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.downloadcvbtn {
+    padding: 10px 25px;
+    background-color:#343F4F;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid white;
+    font-size: 20px;
+}
+
+.myworkbtn {
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+ }
+ .downloadcvbtn:hover, .myworkbtn:hover {
+    background-color:#4a7ac2;
+    transition: all .2s;
+}
+
+
+@media (max-width: 788px) {
+    .aboutme div p {
+        font-size: 1.1em;
+        width: 350px;
+    }
+}
+@media (max-width: 676px) {
+    .aboutme img {
+        height: 250px;
+    }
+    .aboutme div p {
+        font-size: 0.95em;
+    }
+}
+@media (max-width: 586px) {
+    .aboutme {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .aboutme div {
+        margin-top: 30px;
+    }
+    .aboutme img {
+        margin: 0;
+    }
+    #about {
+        height: 120vh;
+    }
+   
+}
+@media (max-width: 376px) {
+    #about {
+        height: 110vh;
+    }
+}
+
+
+/*--------------------skills----------------------------*/
+
+#Skills {
+    height: auto;
+    width: 100vw;
+    
+}
+.skills-header {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.skills-header h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #3498db;
+}
+.skills-header p {
+    font-size: 25px;
+}
+.skillswrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 25% 10% 25%;
+    padding: 0;
+
+}
+
+
+.skillswrapper div {
+    height: 100px;
+    width: 100px;
+    margin: 30px 30px;
+}
+.skillswrapper div img {
+    height: 100%;
+    width: 100%;
+    margin: 20px;
+}
+
+@media (max-width: 625px) {
+    .skillswrapper div img {
+        margin: 0;
+    }
+    .skillswrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px 0 10% 0;
+        padding: 0;
+    
+    }
+}
+
+
+
+/*-------------------Projects---------------------------*/
+
+#projects {
+    min-height: 70vh;
+    height: auto;
+    width: 100vw;
+    border-top: 1px solid grey;
+    /*background: linear-gradient(
+      rgba(0, 0, 0, 0), 
+      rgba(0, 0, 0, 0.6)
+    ),
+    /* bottom, image 
+    url(photos/bg_bggenerator_com.png); */
+    
+    background: #cccccc;
+    border: none;
+    padding-bottom: 100px;
+}
+.projects-header h1 {
+    font-size: 30px;
+    padding-top: 30px;
+}
+.projects-header h1, .projects-header p {
+    margin-top: 30px;
+     text-align: center;
+     color: white;
+     font-family: 'Zen Kaku Gothic Antique', sans-serif;
+     
+ }
+ 
+.projects-mockups {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card {
+    height: 350px;
+    width: 400px;
+    border: 4px solid rgb(0, 6, 90);
+    margin: 75px 0;
+    border-radius: 3px;
+    
+    
+}
+
+
+.card  img {
+    display: block;
+    width: 100%;
+    height: 75%;
+}
+
+
+.card div {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.card div a {
+    color: rgb(0, 31, 168);
+margin: 10px 20px 0 20px;
+font-family: 'Jost', sans-serif;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.card p {
+    color: #585858;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    padding: 15px;
+    width: 240px;
+    height: 100px;
+    background-color: #C1E1C1;
+    margin-top: 15px;
+    border: 2px solid rgb(189, 206, 167);
+}
+.card a:hover {
+    color: #003968;
+    transition: .2s all;
+}
+
+
+@media (max-width: 300px) {
+    #projects {
+        height: 270vh;
+    }
+  
+}
+
+
+
+/*----------------------Contact-------------------------*/
+
+#contact {
+    height: auto;
+    width: 100%;
+    background-color: #C3DFA1;
+}
+#contact h1 {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+
+
+#contact  div {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#contact div a {
+    margin: 30px;
+    font-size: 30px;
+    color: black;
+
+}
+#contact div a:hover {
+    
+    color: rgb(0, 12, 179);
+    transition: all .2s;
+    
+}
+
+@media (max-width: 500px) {
+    #contact div {
+        text-align: center;
+        display: block;
+        padding: 0 0 30px 0;
+    }
+    #contact h1 {
+        padding: 30px 0;
+    }
+}
+
+.end {
+    text-align: center;
+    cursor:default;
+    padding: 0 0 30px 0;
+    color: rgb(216, 9, 9)
+}

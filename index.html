@@ -1,0 +1,220 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Nunito:wght@200&family=Roboto+Condensed:wght@300&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;300;400&family=Montserrat:wght@300&family=Mulish:wght@700&family=Poppins:wght@800&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script>
+        $(document).ready(function() {
+            $('#icon').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+        $(document).ready(function() {
+            $('li').click(function(){
+                $('ul').removeClass('show');
+            });
+        });
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <section id="home">
+        <nav id="nav1">
+            <ul>
+                <li><a href="#">.home( )</a></li>
+                <li><a href="#About">.about( )</a></li>
+                <li><a href="#Skills">.skills( )</a></li>
+                <li><a href="#projects">.projects( )</a></li>
+                <li><a href="#contact">.contact( )</a></li>
+            </ul>
+            <label><i class="fas fa-bars" id="icon"></i></label>
+        </nav>
+        <div class="header-area">
+            <h1>I am Sali Meholli</h1>
+            <h2>I am a <span class="animate"></span></h2>
+            <h3><a href="mailto:salidev.ks@gmail.com">.contactMe( )</a></h3>
+            
+        </div>
+        <div class="arrow" >
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    </section>
+    <!---------------------------------------------->
+    <section id="About">
+        <h1 class="abouttitle">.aboutSali( )</h1>
+      <div class="aboutme">
+        
+          <img src="photos/profile.jpg" 
+          data-aos="fade-left" data-aos-offset="500" data-aos-duration="40000" data-aos-delay="50">
+          <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="50000" data-aos-delay="50" >
+          <h1>I am Sali Meholli</h1>
+          <p>I am a <span> frontend developer</span>. I started learning more about programming about 2 years ago <br> and since then I learned a lot about development specifically, front end development <br> and mobile development (React Native).In these years I gained a lot of knowledge and I am willing to gain more about technology and programming.  </p>
+          <div class="anchor">
+          <a href="My_CV (4).pdf" download class="downloadcvbtn">.getResume( )</a>
+            <a href="#projects" class="myworkbtn">.myWork( ) </a>
+        </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!---------------------------------------------->
+    <section id="Skills">
+        <div class="skills-header">
+            <h1>.mySkills( )</h1>
+            <p>Highly Skilled in HTML,CSS,JS and ReactJS,<br> moderatly skilled in jQuery and Material-UI.</p>
+        </div>
+        <div class="skillswrapper">
+            
+            <div data-aos="fade-right"  data-aos-duration="50000" data-aos-delay="20">
+               <a href="https://www.w3schools.com/html/">
+                <img src="photos/html.png" alt="">
+               </a> 
+            </div>
+            <div  data-aos="fade-up"  data-aos-duration="50000" data-aos-delay="20">
+               <a href="https://www.w3schools.com/css/">
+                <img src="photos/css.png" alt="">  
+            </a>
+            </div>
+            <div data-aos="fade-left"  data-aos-duration="50000" data-aos-delay="20">
+            <a href="https://www.javascript.com/"> 
+                <img src="photos/javascript.png" alt="">
+            </a>
+            </div>
+            <div  data-aos="fade-right"  data-aos-duration="50000" data-aos-delay="20">
+            <a href="https://reactjs.org/">
+                <img src="photos/react.png" alt="">
+            </a>
+            </div>
+            <div  data-aos="fade-down" data-aos-duration="50000" data-aos-delay="20">
+            <a href="https://jquery.com/">
+                <img src="photos/jquery.png" alt="">
+            </a>
+            </div>
+            <div  data-aos="fade-left"  data-aos-duration="50000" data-aos-delay="20" >
+            <a href="https://mui.com/">  
+                <img src="photos/material-ui.png" alt=""> 
+            </a>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------------------------------------------------->
+    <section id="projects">
+        
+            <div>
+                <div class="projects-header">
+                <h1>.myProjects( )</h1>
+                
+                <p>I have listed some of my projects down in this section, also the link to the source code. </p>
+                </div>
+                <div class="projects-mockups">
+                    
+                    <div class="card" data-aos="fade-left"  data-aos-duration="50000" data-aos-delay="20">
+                        <img src="photos/taskia.PNG" alt="">
+                        <div>
+                            <a href="https://dazzling-newton-cdb7a4.netlify.app/"><i class="fa-solid fa-desktop"></i> Visit site</a>
+                            <a href="https://github.com/SaliMeholli/adobelandingpage.git"><i class="fa-solid fa-folder"></i> View source code</a>  
+                        </div>
+                        <div class="pbox">
+                        <p>This is a landing page which I converted from adobe xd to real code.This shows that I can easily get in touch with the web designer.</p>
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-up"  data-aos-duration="50000" data-aos-delay="20">
+                        <img src="photos/crypto.png" alt="">
+                        <div>
+                            <a href="https://smcryptoapp.web.app/"> <i class="fa-solid fa-desktop"></i> Visit site</a>
+                            <a href="https://github.com/SaliMeholli/cryptoappsm"><i class="fa-solid fa-folder"></i> View source code</a>
+                        </div>
+                        <div class="pbox">
+                            <p>I built a simple react app to show that I can use and work with hooks, calling api's and getting data with axios.</p>
+                        </div>
+                    </div>
+                    <div class="card" data-aos="fade-left"  data-aos-duration="50000" data-aos-delay="20">
+                        <img src="photos/Capture.PNG" alt="">
+                        <div>
+                            <a href="https://reactrouter-2ab2f.web.app"><i class="fa-solid fa-desktop"></i> Visit site</a>
+                            <a href="https://github.com/SaliMeholli/ReactRouter.git"><i class="fa-solid fa-folder"></i> View source code</a>  
+                        </div>
+                        <div class="pbox">
+                        <p>I build a web app just to show that I can  work with React-Router and React-Bootstrap and create pretty and functional singlepage app's.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="card" data-aos="fade-left"  data-aos-duration="50000" data-aos-delay="20">
+                        <img src="photos/weatherapp.png" alt="">
+                        <div>
+                            <a href="https://weatherapp-sss.web.app/"> <i class="fa-solid fa-desktop"></i> Visit site</a>
+                            <a href="https://github.com/SaliMeholli/Weatherapp"><i class="fa-solid fa-folder"></i> View source code</a>
+                        </div>
+                        <div class="pbox">
+                            <p>This app is similar to the second app they both get data from an API and then display them.I used here React Hooks, Axios.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+<!----------------------------Contact--------------->
+<section id="contact">
+    
+        <div>
+            <h1>Stalk me here: </h1>
+                <a href="https://github.com/SaliMeholli"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sali-meholli-b6b002224/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/salimeholli04/"><i class="fab fa-facebook-square"></i></a>
+            </div>
+            <h1 class="end">.end( );</h1>
+</section>
+   <!-----------------------------------AOS--------------------------------------------------------------------------------------->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+<!---------------------------------------Typed---------------------------------------------------------------------------------->
+<script src="typed.js"></script>
+<script>
+    var typed = new Typed('.animate', {
+        strings : [
+            "Frontend Developer",
+            "Web Designer",
+            
+        ], typeSpeed: 50,
+        backSpeed: 50,
+        loop: true
+    });
+    </script>
+    <!---------------------------Navbar----------------------------------------------------------------------------------------------->
+    <script>
+        var navbar = document.getElementById('nav1');
+        var sticky = navbar.offsetTop;
+        window.onscroll = function () {
+            if(window.scrollY > sticky){
+                navbar.classList.add('sticky')
+            } else {
+                navbar.classList.remove('sticky');
+            }
+        }
+    
+    
+    
+     
+    </script>
+</html>
