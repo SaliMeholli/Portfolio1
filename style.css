@@ -10,8 +10,8 @@ body {
     align-items: center;
     min-height: 100vh;
     overflow-x: hidden;
-    
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -109,6 +109,49 @@ nav #icon {
 
 }
 
+
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #8A9A5B;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #Fff;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #fff;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
 /*-------------------------Homepage-----------------------------*/
 
 .header-area h2 {
@@ -224,10 +267,13 @@ nav #icon {
     margin:0 20%;
 }
 .aboutme img {
-    height: 400px;
+    height: 500px;
     padding: 0 20px;
-    margin:  0 0 50px 0;
+    margin:  0 0 150px 0;
     
+}
+.profilepicture {
+    transform-style: preserve-3d;
 }
 
 .aboutme h1 {
@@ -410,7 +456,7 @@ nav #icon {
     font-size: 18px;
  }
  
-.projects-mockups {
+ .projects-mockups {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -423,11 +469,9 @@ nav #icon {
 .card {
     height: 350px;
     width: 400px;
-    border: 4px solid rgb(0, 6, 90);
+    border: 4px solid rgba(0, 17, 92, 0.781);
     margin: 75px 0;
-    border-radius: 3px;
-    
-    
+    border-radius: 8px;
 }
 
 
@@ -441,7 +485,7 @@ nav #icon {
 .card div {
     display: flex;
     justify-content: center;
-    
+    height: auto;
     
 }
 .card div a {
@@ -461,7 +505,8 @@ font-weight: bold;
     height: 120px;
     background-color: #C1E1C1;
     margin-top: 15px;
-    border: 2px solid rgb(189, 206, 167);
+    border: 4px solid rgba(255, 255, 255, 0.603);
+    border-radius: 10px;
 }
 .card a:hover {
     color: #003968;
@@ -514,7 +559,7 @@ font-weight: bold;
     margin: 30px;
     font-size: 30px;
     color: black;
-
+    
 }
 #contact div a:hover {
     
@@ -540,3 +585,4 @@ font-weight: bold;
     padding: 0 0 30px 0;
     color: rgb(216, 9, 9)
 }
+

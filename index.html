@@ -10,6 +10,10 @@
 rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 <link rel="stylesheet" href="css/all.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,22 +53,24 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
             <h3><a href="mailto:salidev.ks@gmail.com">.contactMe( )</a></h3>
             
         </div>
-        <div class="arrow" >
-            <span></span>
-            <span></span>
-            <span></span>
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
         </div>
+        <div class="loader-wrapper">
+            <span class="loader"><span class="loader-inner"></span></span>
+          </div>
+       
     </div>
 
     </section>
     <!---------------------------------------------->
     <section id="About">
         <h1 class="abouttitle">.aboutSali( )</h1>
-      <div class="aboutme">
-        
-          <img src="photos/profile.jpg" 
-          data-aos="fade-left" data-aos-offset="500" data-aos-duration="40000" data-aos-delay="50">
-          <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="50000" data-aos-delay="50" >
+      <div class="aboutme" >
+        <div data-tilt data-aos="fade-left" data-aos-offset="500" data-aos-duration="40000" data-aos-delay="50" >
+          <img src="photos/profile.jpg"   />
+        </div>
+          <div data-aos="fade-right" data-aos-offset="500" data-aos-duration="40000" data-aos-delay="50" >
           <h1>I am Sali Meholli</h1>
           <p>I am a <span> frontend developer</span>. I started learning more about programming about 2 years ago <br> and since then I learned a lot about development specifically, front end development <br> and mobile development (React Native).In these years I gained a lot of knowledge and I am willing to gain more about technology and programming.  </p>
           <div class="anchor">
@@ -119,70 +125,70 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     <!---------------------------------------------------------------------------->
     <section id="projects">
         
-            <div>
-                <div class="projects-header">
-                <h1>.myProjects( )</h1>
-                
-                <p>I have listed some of my projects down in this section, also the link to the source code. </p>
-                </div>
-                <div class="projects-mockups">
-                    <div class="card" data-aos="fade-right"  data-aos-duration="50000" data-aos-delay="20">
-                        <img src="photos/CRUDapp.png" alt="">
-                        <div>
-                            <a href="https://smcrudapp.web.app/"> <i class="fa-solid fa-desktop"></i> Visit site</a>
-                            <a href="https://github.com/SaliMeholli/CRUDapp.git"><i class="fa-solid fa-folder"></i> View source code</a>
-                        </div>
-                        <div class="pbox">
-                            <p>This is a CRUD app that I created using React.JS.This shows that I can set up firebase in a React app and use all the CRUD operations using Firestore.</p>
-                        </div>
-                    </div>
-                    <div class="card" data-aos="fade-left"  data-aos-duration="50000" data-aos-delay="20">
-                        
-                        <img src="photos/taskia.PNG" alt="" >
-
-                        <div>
-                            <a href="https://dazzling-newton-cdb7a4.netlify.app/"><i class="fa-solid fa-desktop"></i> Visit site</a>
-                            <a href="https://github.com/SaliMeholli/adobelandingpage.git"><i class="fa-solid fa-folder"></i> View source code</a>  
-                        </div>
-                        <div class="pbox">
-                        <p>This is a landing page which I converted from adobe xd to real code.This shows that I can easily get in touch with the web designer.</p>
-                        </div>
-                    </div>
-                    <div class="card" data-aos="fade-up"  data-aos-duration="50000" data-aos-delay="20">
-                        <img src="photos/crypto.png" alt="">
-                        <div>
-                            <a href="https://smcryptoapp.web.app/"> <i class="fa-solid fa-desktop"></i> Visit site</a>
-                            <a href="https://github.com/SaliMeholli/cryptoappsm"><i class="fa-solid fa-folder"></i> View source code</a>
-                        </div>
-                        <div class="pbox">
-                            <p>I built a simple react app to show that I can use and work with hooks, calling api's and getting data with axios.</p>
-                        </div>
-                    </div>
-                    <div class="card" data-aos="fade-left"  data-aos-duration="50000" data-aos-delay="20">
-                        <img src="photos/Capture.PNG" alt="">
-                        <div>
-                            <a href="https://reactrouter-2ab2f.web.app"><i class="fa-solid fa-desktop"></i> Visit site</a>
-                            <a href="https://github.com/SaliMeholli/ReactRouter.git"><i class="fa-solid fa-folder"></i> View source code</a>  
-                        </div>
-                        <div class="pbox">
-                        <p>I build a web app just to show that I can  work with React-Router and React-Bootstrap and create pretty and functional singlepage app's.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="card" data-aos="fade-left"  data-aos-duration="50000" data-aos-delay="20">
-                        <img src="photos/weatherapp.png" alt="">
-                        <div>
-                            <a href="https://weatherapp-sss.web.app/"> <i class="fa-solid fa-desktop"></i> Visit site</a>
-                            <a href="https://github.com/SaliMeholli/Weatherapp"><i class="fa-solid fa-folder"></i> View source code</a>
-                        </div>
-                        <div class="pbox">
-                            <p>This app is similar to the second app they both get data from an API and then display them.I used here React Hooks, Axios.</p>
-                        </div>
-                    </div>
-                    
-                </div>
+        <div>
+            <div class="projects-header">
+            <h1>.myProjects( )</h1>
+            
+            <p>I have listed some of my projects down in this section, also the link to the source code. </p>
             </div>
-    </section>
+            <div class="projects-mockups">
+                <div class="card" data-aos="fade-up"  data-aos-duration="50000" data-aos-delay="20">
+                    <img src="photos/CRUDapp.png" alt="">
+                    <div>
+                        <a href="https://smcrudapp.web.app/"> <i class="fa-solid fa-desktop"></i> Visit site</a>
+                        <a href="https://github.com/SaliMeholli/CRUDapp.git"><i class="fa-solid fa-folder"></i> View source code</a>
+                    </div>
+                    <div class="pbox">
+                        <p>This is a CRUD app that I created using React.JS.This shows that I can set up firebase in a React app and use all the CRUD operations using Firestore.</p>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-down"  data-aos-duration="50000" data-aos-delay="20">
+                    
+                    <img src="photos/taskia.PNG" alt="" >
+
+                    <div>
+                        <a href="https://dazzling-newton-cdb7a4.netlify.app/"><i class="fa-solid fa-desktop"></i> Visit site</a>
+                        <a href="https://github.com/SaliMeholli/adobelandingpage.git"><i class="fa-solid fa-folder"></i> View source code</a>  
+                    </div>
+                    <div class="pbox">
+                    <p>This is a landing page which I converted from adobe xd to real code.This shows that I can easily get in touch with the web designer.</p>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-up"  data-aos-duration="50000" data-aos-delay="20">
+                    <img src="photos/crypto.png" alt="">
+                    <div>
+                        <a href="https://smcryptoapp.web.app/"> <i class="fa-solid fa-desktop"></i> Visit site</a>
+                        <a href="https://github.com/SaliMeholli/cryptoappsm"><i class="fa-solid fa-folder"></i> View source code</a>
+                    </div>
+                    <div class="pbox">
+                        <p>I built a simple react app to show that I can use and work with hooks, calling api's and getting data with axios.</p>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-down"  data-aos-duration="50000" data-aos-delay="20">
+                    <img src="photos/Capture.PNG" alt="">
+                    <div>
+                        <a href="https://reactrouter-2ab2f.web.app"><i class="fa-solid fa-desktop"></i> Visit site</a>
+                        <a href="https://github.com/SaliMeholli/ReactRouter.git"><i class="fa-solid fa-folder"></i> View source code</a>  
+                    </div>
+                    <div class="pbox">
+                    <p>I build a web app just to show that I can  work with React-Router and React-Bootstrap and create pretty and functional singlepage app's.</p>
+                    </div>
+                </div>
+                
+                <div class="card" data-aos="fade-up"  data-aos-duration="50000" data-aos-delay="20">
+                    <img src="photos/weatherapp.png" alt="">
+                    <div>
+                        <a href="https://weatherapp-sss.web.app/"> <i class="fa-solid fa-desktop"></i> Visit site</a>
+                        <a href="https://github.com/SaliMeholli/Weatherapp"><i class="fa-solid fa-folder"></i> View source code</a>
+                    </div>
+                    <div class="pbox">
+                        <p>This app is similar to the second app they both get data from an API and then display them.I used here React Hooks, Axios.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+</section>
 <!----------------------------Contact--------------->
 <section id="contact">
     
@@ -199,7 +205,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 <script>
   AOS.init();
 </script>
+
 </body>
+<script src="vanilla-tilt.js"></script>
 <!---------------------------------------Typed---------------------------------------------------------------------------------->
 <script src="typed.js"></script>
 <script>
@@ -225,7 +233,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
             }
         }
     
-    
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
     
      
     </script>
