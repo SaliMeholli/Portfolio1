@@ -86,7 +86,7 @@ nav #icon {
     nav ul {
         position: fixed;
         width: 100%;
-        height: 100vh;
+        height: 80vh;
         background-color: #8A9A5B;
         top: 80px;
         left: -100%;
@@ -225,14 +225,7 @@ nav #icon {
     }
 }
 
-.arrow {
-    position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    
-}
+
 
 
 /*----------------------------2nd section----------------------------------*/
@@ -311,14 +304,18 @@ nav #icon {
 }
 
 .myworkbtn {
+
     padding: 10px 25px;
     background-color: transparent;
     border: 1px solid white;
     color: white;
     border-radius: 6px;
     font-size: 20px;
+    transition: color 0.5s linear;
+    overflow: hidden;
  }
- .downloadcvbtn:hover, .myworkbtn:hover {
+ 
+ .downloadcvbtn:hover, .myworkbtn:hover{
     background-color:#4a7ac2;
     transition: all .2s;
 }
@@ -468,9 +465,9 @@ nav #icon {
 
 .card {
     height: 350px;
-    width: 400px;
+    width: 450px;
     border: 4px solid rgba(0, 17, 92, 0.781);
-    margin: 75px 0;
+    margin: 100px 0;
     border-radius: 8px;
 }
 
@@ -496,7 +493,7 @@ text-transform: uppercase;
 font-weight: bold;
 }
 
-.card p {
+.card p{
     color: #585858;
     font-family: 'Mulish', sans-serif;
     text-align: center;
