@@ -466,9 +466,9 @@ nav #icon {
 .card {
     height: 350px;
     width: 450px;
-    border: 4px solid rgba(0, 17, 92, 0.781);
     margin: 100px 0;
     border-radius: 8px;
+    box-shadow: rgb(255, 255, 255) 0px 48px 100px 0px;
 }
 
 
@@ -476,7 +476,9 @@ nav #icon {
     display: block;
     width: 100%;
     height: 75%;
-    image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('landingpagepic.jpg');
+    image:  linear-gradient( rgb(255, 255, 255), rgb(255, 255, 255), 0.5) , url('landingpagepic.jpg');
+    border-radius: 8px 8px 0 0;
+    object-fit: fill;
 }
 
 .card div {
@@ -502,8 +504,9 @@ font-weight: bold;
     height: 120px;
     background-color: #C1E1C1;
     margin-top: 15px;
-    border: 4px solid rgba(255, 255, 255, 0.603);
     border-radius: 10px;
+    border: 4px solid rgba(255, 255, 255, 0.603);
+    box-shadow: rgb(185, 185, 185) 0px 48px 100px 0px;
 }
 .card a:hover {
     color: #003968;
