@@ -531,7 +531,9 @@ font-weight: bold;
     .card div a {
         font-size: 13px;
     }
-  
+  .card  {
+    width: 400px;
+  }
 }
 
 /*----------------------Contact-------------------------*/
