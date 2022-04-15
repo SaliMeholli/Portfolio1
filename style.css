@@ -525,6 +525,11 @@ font-weight: bold;
     }
   
 }
+@media (max-width: 625px) {
+    #projects {
+        padding-top: 10%;
+    }
+}
 
 @media (max-width: 460px) {
     .card div a {
