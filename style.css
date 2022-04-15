@@ -415,7 +415,7 @@ nav #icon {
         flex-wrap: wrap;
         justify-content: center;
         margin: 20px 0 0 0;
-        padding: 0 0 10% 0;
+        padding: 10% 0 10% 0;
     
     }
 }
