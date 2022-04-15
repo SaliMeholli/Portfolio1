@@ -586,6 +586,12 @@ font-weight: bold;
         display: block;
         padding: 0 0 30px 0;
     }
+    #contact div a {
+        margin:15px;
+        font-size: 20px;
+        color: black;
+        
+    }
     #contact h1 {
         padding: 30px 0;
     }
