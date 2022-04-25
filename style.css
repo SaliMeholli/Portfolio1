@@ -593,6 +593,28 @@ font-weight: bold;
     .card div a {
         font-size: 15px;
     }
+    .card {
+        box-shadow:
+    0 0 5px #fff,
+    0 0 5px #006EBB,
+    0 0 5px #006EBB,
+    0 0 5px #006EBB,
+    0 0 5px #006EBB,
+    0 0 5px #006EBB,
+    0 0 5px #006EBB,
+    0 0 5px #006EBB;
+    }
+    .card p{
+        box-shadow:
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 5px #fff,
+    0 0 5px #003968;
+    }
   
 }
 @media (max-width: 418px) {
