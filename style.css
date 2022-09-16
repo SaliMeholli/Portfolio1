@@ -192,6 +192,8 @@ nav #icon {
     color: #fff;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
 }
+
+
 .header-area h1 span {
     color: #7DB0CA;
     margin-left: 15px;
@@ -311,7 +313,7 @@ nav #icon {
 }
 .aboutme div p {
     color: white;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     width: 450px;
     margin-bottom: 25px;
     margin-top: 5px;
@@ -352,14 +354,14 @@ nav #icon {
     background-color:#4a7ac2;
     transition: all .2s;
     text-shadow:
-      0 0 5px #fff,
-      0 0 5px #fff,
-      0 0 5px #fff,
-      0 0 5px #7DB0CA,
-      0 0 5px #7DB0CA,
-      0 0 5px #7DB0CA,
-      0 0 5px #7DB0CA,
-      0 0 5px #7DB0CA;
+      0 0 1px #fff,
+      0 0 1px #fff,
+      0 0 1px #fff,
+      0 0 1px #7DB0CA,
+      0 0 1px #7DB0CA,
+      0 0 1px #7DB0CA,
+      0 0 1px #7DB0CA,
+      0 0 1px #7DB0CA;
 }
 
 
