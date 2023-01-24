@@ -18,7 +18,7 @@ html {
 
 #home {
     height: 100vh;
-    max-width: 100%;
+    max-width: 100vw;
     background-color: #1D1D1D;
 }
 nav {
@@ -251,7 +251,7 @@ nav #icon {
 
 #about {
     height: auto;
-    max-width: 100%;
+    max-width: 100vw;
     background: #1D1D1D;
     /* top, transparent black, faked with gradient  
     linear-gradient(
@@ -407,7 +407,7 @@ nav #icon {
 
 #Skills {
     height: auto;
-    width: 100vw;
+    max-width: 100vw;
     background: #1D1D1D;
 }
 .skills-header {
